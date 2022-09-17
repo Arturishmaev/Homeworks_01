@@ -3,9 +3,9 @@ System.Console.WriteLine("Введите первое число :");
 int num1 = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Введите второе число :");
 int num2 = Convert.ToInt32(Console.ReadLine());
-if(num1 > num2)
+if (num1 > num2)
 {
-   System.Console.WriteLine("Максимальное число : " + num1);
+    System.Console.WriteLine("Максимальное число : " + num1);
 }
 else
 {
@@ -52,6 +52,22 @@ else
 }
 
 //Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+System.Console.WriteLine("Введите Ваше число : ");
+int N = Convert.ToInt32(Console.ReadLine());
+int index = 1;
+
+while (index <= N)
+{
+    if (index % 2 == 0)
+    {
+        System.Console.WriteLine("Четные числа : " + index);
+    }
+    index++;
+}
+
+
+
 
 
 
